@@ -21,7 +21,10 @@ int main()
         printf("\nEnter the temparature: ");
         scanf("%f", temp);
         temp = ((temp - 32) * 5) / 9;
-        printf("\nThe Temparature in farenhiet is: %f", temp);
+        printf("\nThe Temparature in Celcious is: %f", temp);
+    }
+    else{
+        printf("%c is invalid key", unit);
     }
     return 0;
 }
